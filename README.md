@@ -36,7 +36,7 @@ The project demonstrates practical usage of:
 
 ---
 
-## 🛠 Technologies
+##Technologies
 
 * Microsoft SQL Server
 * T-SQL
@@ -57,7 +57,7 @@ The project demonstrates practical usage of:
 
 ---
 
-## 🗄 Database Schema
+##Database Schema
 
 | Table              | Description                                |
 | ------------------ | ------------------------------------------ |
