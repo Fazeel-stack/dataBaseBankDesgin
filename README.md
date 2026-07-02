@@ -1,9 +1,9 @@
-# 🏦 Relational Banking Database System
+# Relational Banking Database System
 
 A SQL Server relational database that simulates core banking operations such as customer onboarding, account management, deposits, withdrawals, transfers, and audit logging. The project demonstrates how business rules can be enforced directly at the database layer using T-SQL, stored procedures, transactions, constraints, and triggers.
 
 
-## 📌 Overview
+## Overview
 
 This project was built to explore database design beyond basic CRUD operations by implementing business logic directly inside SQL Server.
 
@@ -21,7 +21,7 @@ The project demonstrates practical usage of:
 
 ---
 
-## ✨ Features
+## Features
 
 * Multi-branch banking database
 * Customer onboarding with automatic account creation
@@ -44,7 +44,7 @@ The project demonstrates practical usage of:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 .
@@ -69,7 +69,7 @@ The project demonstrates practical usage of:
 
 ---
 
-## 🏛 Entity Relationship Diagram
+## Entity Relationship Diagram
 
 ```
                      +--------------------+
@@ -100,7 +100,7 @@ The project demonstrates practical usage of:
 
 ---
 
-# ⚙ Core Design
+# Core Design
 
 ## 1. Atomic Customer Onboarding
 
@@ -169,7 +169,7 @@ This provides a history of balance changes without requiring changes to applicat
 
 ---
 
-# 📑 Table Highlights
+#Table Highlights
 
 ## B_BRANCHES
 
@@ -235,7 +235,7 @@ This provides a history of balance changes without requiring changes to applicat
 
 ---
 
-# 🚀 Example Usage
+#Example Usage
 
 ## Create Customer and Account
 
@@ -308,7 +308,7 @@ EXEC Pr_T_makeWithdraw
 
 ---
 
-# ✅ Testing
+#Testing
 
 ### Duplicate Customer
 
@@ -366,7 +366,7 @@ The trigger automatically records the update.
 
 ---
 
-# ▶ Running the Project
+#Running the Project
 
 Execute the SQL files in the following order.
 
@@ -381,7 +381,7 @@ After running the testing script, inspect the tables to verify customer creation
 
 ---
 
-# 📚 What I Learned
+#What I Learned
 
 This project provided hands-on experience with:
 
@@ -396,7 +396,7 @@ This project provided hands-on experience with:
 
 ---
 
-# 🔮 Future Improvements
+#Future Improvements
 
 Possible extensions include:
 
